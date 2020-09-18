@@ -1,6 +1,19 @@
 {
   "id": "040a7787-3b81-4bf8-9ac8-979ae0404ff4",
   "name": "Dark",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "tiles": ["http://localhost:3000/tiles/saint-petersburg/{z}/{x}/{y}.pbf"]
+    }
+  },
+  "glyphs": "http://localhost:3000/static/fonts/{fontstack}/{range}.pbf",
+  "sprite": "http://localhost:3000/static/sprites/basic-v9",
+  "version": 8,
+  "metadata": {
+    "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage outside of MapTiler Cloud requires valid OpenMapTiles Production Package: https://openmaptiles.com/production-package/ -- please contact us.",
+    "openmaptiles:version": "3.x"
+  },
   "zoom": 12.758554815390214,
   "pitch": 0,
   "center": [
@@ -1719,18 +1732,5 @@
       "source-layer": "place"
     }
   ],
-  "bearing": 0,
-  "sources": {
-    "openmaptiles": {
-      "type": "vector",
-      "tiles": ["http://localhost:3000/tiles/saint-petersburg/{z}/{x}/{y}.pbf"]
-    }
-  },
-  "glyphs": "http://localhost:3000/static/fonts/{fontstack}/{range}.pbf",
-  "sprite": "http://localhost:3000/static/sprites/basic-v9",
-  "version": 8,
-  "metadata": {
-    "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage outside of MapTiler Cloud requires valid OpenMapTiles Production Package: https://openmaptiles.com/production-package/ -- please contact us.",
-    "openmaptiles:version": "3.x"
-  }
+  "bearing": 0
 }

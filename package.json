@@ -28,6 +28,7 @@
   "dependencies": {
     "@mapbox/mbtiles": "^0.12.1",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "log4js": "^6.3.0"
   }
 }
