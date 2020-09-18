@@ -4,8 +4,7 @@
   "description": "A simple vector tile server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +21,7 @@
     "url": "https://github.com/softdrum/vector-tile-server/issues"
   },
   "homepage": "https://github.com/softdrum/vector-tile-server#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@mapbox/mbtiles": "^0.12.1",
     "cors": "^2.8.5",
