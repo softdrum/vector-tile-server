@@ -7,6 +7,9 @@ const routesPath = __dirname + '/routes/';
  * @param {*} express 
  */
 module.exports = (app) => {
+  // fix 404 error on GET /favicon.ico
+  app.get('/favicon.ico', (req, res) => res.status(204));
+
   fs.readdirSync(routesPath)
     .filter((file) => file !== 'index.js')
     .forEach((file) => {

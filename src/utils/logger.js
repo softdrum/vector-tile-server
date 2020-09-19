@@ -12,5 +12,6 @@ module.exports = {
     });
     let logger = log4js.getLogger('tileserver');
     app.use(log4js.connectLogger(logger, {level: 'auto'}));
+    return logger
   }
 }
