@@ -1,4 +1,3 @@
-# using buster for raspberry pi 3b compatibility
 FROM node:12.18.3
 
 # creating app directory
